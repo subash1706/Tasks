@@ -1,0 +1,58 @@
+<!--
+
+    Context configuration file for the Tomcat Manager Web App
+
+    $Id: manager.xml 303123 2004-08-26 17:03:35Z remm $
+
+-->
+
+<!--
+
+<Context docBase="D:\Echain_V4.3\FinalSPFSource\WEBROOT"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\EchainvDev4.5\WEBROOT"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\Echain_V4.3\EHRMS\WEBROOT"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\Echain_V4.3\EchainInv4.5\WEBROOT"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\Echain_V4.3\AppMDM_NewSource"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\Echain_V4.3\v5"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\Innovation_Repository\Innovation\base"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+
+<Context docBase="D:\LunaWorkSpace\Appload_Latest"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+<Context docBase="D:\ApploadV15_Repository\appload_Suite_15\dev"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+		 
+<Context docBase="D:\Innovation_Repository\New_less\lesshtml"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+		 
+	<Context docBase="D:\Innovation_Repository\Appplatform\web\web"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false"> 
+		 
+    <Context docBase="D:\Innovation_Repository\WebProjects\web\app_v16_web"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false"> 
+
+-->
+
+<Context docBase="D:\MainSourceandrelatedfiles\coreFiles\web\app_v16_web"
+         privileged="true" antiResourceLocking="false" antiJARLocking="false">
+
+  <!-- Link to the user database we will get roles from -->
+ <ResourceLink name="users" global="UserDatabase"
+                type="org.apache.catalina.UserDatabase"/> 
+
+</Context>
